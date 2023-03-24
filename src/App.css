@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&display=swap');
+
+.navbar{
+  background-color: rgba(136, 152, 194, 1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-fluid{
+  --bs-gutter-x: 0rem !important;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+  padding: 5px;
+  --bs-card-border-radius: 0rem !important;
+  background-color: rgba(220, 182, 146, 1) !important;
+  margin-bottom: 5px;
+  border-style: none !important;
+  --bs-card-height: 100% ;
+  --bs-card-spacer-y: none !important;
+  padding: 15px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-card{
+padding: 30px;
+
+
+
+}
+
+.card-title{
+  font-size: 30px;
+}
+
+.col{
+  padding: 0;
+}
+
+.next-five{
+  padding: 30px;
+
+}
+
+.navbar-brand{
+  color: white !important;
+  padding-left: 30px;
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 36px;
+
+}
+
+.search{
+  
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 36px;
+  
+}
+
+.form-control{
+  border-radius: 0rem !important;
+}
+
+.btn{
+  --bs-btn-border-radius: 0rem !important;
+}
+
+.temp{
   display: flex;
-  flex-direction: column;
+  justify-content: end;
+  font-size: 40px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.five-day-imgs{
+  display: flex;
+  justify-content: end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.current-img{
+  display: flex;
+  justify-content: end !important;
+}
+
+.time-date{
+  font-size: 20px ;
+}
+
+.desc{
+  font-size: 20px;
 }
